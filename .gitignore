@@ -1,0 +1,15 @@
+# Gradle
+.gradle/          # project cache: task history, configuration cache entries
+build/            # all build output, in every module
+.kotlin/          # Kotlin compiler state from compiling the *.gradle.kts scripts
+
+# IntelliJ (rebuilt from the Gradle files on import)
+.idea/
+*.iml
+out/              # IntelliJ's own output folder, if it ever builds without Gradle
+
+# Local secrets (DB passwords for the migration and runtime roles, later)
+.env
+
+# OS
+.DS_Store
